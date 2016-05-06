@@ -1,0 +1,25 @@
+body{font-size:14px;}
+#calculator-widget{width:380px;margin:12px auto;font-size:14px;}
+#calculator-content{padding:12px 18px 3px 18px;}
+#deadline-calculator{}
+.radiogroup{padding:18px 0 0 0;}
+.radiogroup label.inline{margin-left:12px;display:inline;}
+.radiogroup label.first{margin-left:0px;}
+.buttongroup{margin:24px 0 0 0;padding:12px 0 0 0;text-align:center;border-top:1px solid #e5e5e5;}
+.ui-widget-header{padding:4px 6px;font-size:16px;font-weight:bold;}
+
+#skipTable{border:1px solid #d9d9d9;cell-spacing:0;margin:24px auto;}
+#skipTable th, #skipTable td{border:1px solid #d9d9d9;padding:3px 4px;font-size:.75em;}
+#deadlineCell{text-align:center;colspan:2;font-size:1em !important;font-weight:bold;background:#75abd4;padding:12px 18px !important;color:#fff;}
+#dayCounts{text-align:center;colspan:2;font-weight:bold;background:#e9e9e9;padding:12px 18px !important;}
+
+#calculator-widget fieldset legend{margin-bottom:0;}
+#calculator-widget fieldset {padding-top:0;}
+#deadline-calculator-instructions{font-size:11px;padding-left:12px;margin:0;margin-bottom:12px;margin-top:12px;}
+#calculator-widget hr{border-top:1px solid #e9e9e9;border-bottom:none;}
+.right{text-align:right;}
+
+.pure-button-primary, .pure-button-selected, a.pure-button-primary, a.pure-button-selected {
+	background-color: #70a8d2;
+	font-weight:bold;
+}

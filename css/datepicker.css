@@ -1,0 +1,50 @@
+#ds_conclass {
+	background-color: #ecdab3;
+	color:#444;
+	border: 1px solid #444;
+	position: absolute;
+	z-index: 32767;
+}
+#ds_conclass td{text-align:center;height:10px;font-size:10px;}
+
+ds_head {
+	background-color: #333;
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+ds_subhead {
+	background-color: #CCC;
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 32px;
+}
+
+.ds_cell {
+	background-color: #fdebc4;
+	color: #000;
+	font-size: 10px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 5px;
+	cursor: pointer;
+	height:15px;
+	width:12%;
+	border:1px solid #9c9c9c;
+}
+.ds_subhead{border:1px solid #ddd;}
+.ds_head{border:1px solid #9c9c9c;}
+
+.ds_cell:hover {
+	background-color: #fff;
+} /* This hover code won't work for IE */
+.ds_head:hover {
+	background-color: #fff;
+} /* This hover code won't work for IE */
